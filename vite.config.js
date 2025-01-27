@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'dist' // Aquí se indica que la carpeta de salida es 'dist'
-  }
+  },
+  base: "http//moisestk.github.io/galeria"
 })
